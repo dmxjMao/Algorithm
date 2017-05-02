@@ -14,6 +14,7 @@ void display();
 //随机生成一球,m是上限
 int randHit(int m);
 
+
 //每一局
 class CBowlingRound
 {
