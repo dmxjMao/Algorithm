@@ -46,7 +46,7 @@ int Subset_SumEqualToal(int a[], int n, int total)
 				++j;
 				if (j == n) {
 					//开始回溯
-					int len = s.size() - 1;
+					int len = (int)s.size() - 1;
 					if (len >= 0) {
 						j = s[len] + 1;//最后一个候选前进
 						T += a[s[len]];//回溯状态
