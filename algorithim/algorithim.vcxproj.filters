@@ -25,6 +25,9 @@
     <Filter Include="Source Files\game">
       <UniqueIdentifier>{0024c3f0-7134-455f-86fc-9b2a8135740f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hash">
+      <UniqueIdentifier>{822ecd0c-9b56-4e97-b4a0-134f129a96d6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,6 +45,9 @@
     <ClInclude Include="bowling.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>hash</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -55,6 +61,9 @@
     </ClCompile>
     <ClCompile Include="bowling.cpp">
       <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="hash.cpp">
+      <Filter>hash</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -87,10 +87,12 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\dmxjMao\Documents\PRJ\boost_1_63_0</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\dmxjMao\Documents\PRJ\boost_1_63_0\stage\lib</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -142,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="bowling.h" />
+    <ClInclude Include="hash.h" />
     <ClInclude Include="simple.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
@@ -149,6 +152,7 @@
   <ItemGroup>
     <ClCompile Include="algorithim.cpp" />
     <ClCompile Include="bowling.cpp" />
+    <ClCompile Include="hash.cpp" />
     <ClCompile Include="simple.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
