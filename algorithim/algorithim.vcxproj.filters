@@ -25,6 +25,18 @@
     <Filter Include="Source Files\game">
       <UniqueIdentifier>{0024c3f0-7134-455f-86fc-9b2a8135740f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="designmode">
+      <UniqueIdentifier>{ec76fd57-782f-4737-a575-0e94d19bf10e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="designmode\factory">
+      <UniqueIdentifier>{92a124bc-4459-4eeb-a70e-5acc1f6277fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="designmode\bridge">
+      <UniqueIdentifier>{5917a1c3-05af-4a5d-83d4-f41da675f09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="com">
+      <UniqueIdentifier>{f50443fb-2191-4636-b012-7a6d0274ccad}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -42,6 +54,18 @@
     <ClInclude Include="bowling.h">
       <Filter>Header Files\game</Filter>
     </ClInclude>
+    <ClInclude Include="factory.h">
+      <Filter>designmode\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="bridge.h">
+      <Filter>designmode\bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="IFACE.H">
+      <Filter>com</Filter>
+    </ClInclude>
+    <ClInclude Include="CREATE.H">
+      <Filter>com</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -55,6 +79,30 @@
     </ClCompile>
     <ClCompile Include="bowling.cpp">
       <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="factory.cpp">
+      <Filter>designmode\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="bridge.cpp">
+      <Filter>designmode\bridge</Filter>
+    </ClCompile>
+    <ClCompile Include="IFACE.CPP">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="IUNKNOWN.CPP">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="REFCOUNT.CPP">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="CLIENT1.CPP">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="CREATE.CPP">
+      <Filter>com</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIDS.CPP">
+      <Filter>com</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
