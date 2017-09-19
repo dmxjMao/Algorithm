@@ -10,6 +10,11 @@
 #include <iterator>
 #include <fstream>
 
+#include <boost\variant.hpp>
+//#include <afxwin.h>
+//#include <atlconv.h>
+#include <Windows.h>
+
 using namespace std;
 
 
